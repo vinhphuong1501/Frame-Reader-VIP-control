@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="socal">
+        <in>alt_acpidmap.h</in>
+        <in>alt_can.h</in>
+        <in>alt_clkmgr.h</in>
+        <in>alt_dap.h</in>
+        <in>alt_dmanonsecure.h</in>
+        <in>alt_dmasecure.h</in>
+        <in>alt_emac.h</in>
+        <in>alt_f2h.h</in>
+        <in>alt_fpgamgr.h</in>
+        <in>alt_fpgamgrdata.h</in>
+        <in>alt_gpio.h</in>
+        <in>alt_h2f.h</in>
+        <in>alt_i2c.h</in>
+        <in>alt_l3.h</in>
+        <in>alt_l4wd.h</in>
+        <in>alt_lwfpgaslvs.h</in>
+        <in>alt_lwh2f.h</in>
+        <in>alt_mpul2.h</in>
+        <in>alt_mpuscu.h</in>
+        <in>alt_nand.h</in>
+        <in>alt_nanddata.h</in>
+        <in>alt_ocram.h</in>
+        <in>alt_qspi.h</in>
+        <in>alt_qspidata.h</in>
+        <in>alt_rom.h</in>
+        <in>alt_rstmgr.h</in>
+        <in>alt_scanmgr.h</in>
+        <in>alt_sdmmc.h</in>
+        <in>alt_sdr.h</in>
+        <in>alt_spim.h</in>
+        <in>alt_spis.h</in>
+        <in>alt_stm.h</in>
+        <in>alt_sysmgr.h</in>
+        <in>alt_tmr.h</in>
+        <in>alt_uart.h</in>
+        <in>alt_usb.h</in>
+        <in>hps.h</in>
+        <in>socal.h</in>
+      </df>
+      <in>Bitmap.h</in>
+      <in>BufferedImage.cpp</in>
+      <in>BufferedImage.h</in>
+      <in>CEPHISTEAM.c</in>
+      <in>CameraInterface.cpp</in>
+      <in>CameraInterface.h</in>
+      <in>DLPC2607.cpp</in>
+      <in>DLPC2607.h</in>
+      <in>Image.cpp</in>
+      <in>Image.h</in>
+      <in>Image_i2c.h</in>
+      <in>MT9P031.cpp</in>
+      <in>StereoSensor.cpp</in>
+      <in>StereoSensor.h</in>
+      <in>hps_0.h</in>
+      <in>hwlib.h</in>
+      <in>main.cpp</in>
+      <in>oc_i2c_master.cpp</in>
+      <in>oc_i2c_master.h</in>
+      <in>oc_i2c_master_solution.cpp</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
